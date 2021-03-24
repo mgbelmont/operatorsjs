@@ -25,7 +25,7 @@ if (weight != 0 && height != 0) {
   
   if (imc < 18.5) {//Peso inferior al normal
     alert("El imc es: " + imc + " Peso inferior al normal");
-  } else if (imc > 18.5 && imc <= 24.9) {//normal
+  } else if (imc >= 18.5 && imc <= 24.9) {//normal
     alert("El imc es: " + imc + " Peso normal");
   } else if (imc >= 25.0 && imc <= 29.9) {//Peso superior al normal
     alert("El imc es: " + imc + " Peso superior al normal");
